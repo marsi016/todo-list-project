@@ -25,9 +25,24 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+
+    .dark-mode {
+    background-color: #222;
+    color: white;
+}
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
-li {
-    margin-top: 10px;
-    list-style: none;
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .container {
+    background-color: #333;
 }
